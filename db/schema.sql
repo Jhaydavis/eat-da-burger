@@ -9,5 +9,6 @@ CREATE TABLE `burgers`
 	`burger_name` VARCHAR(255) NOT NULL,
 	`devoured` BOOLEAN DEFAULT false,
 	`date` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	`createdAt` TIMESTAMP NOT NULL,
 	PRIMARY KEY (id)
 );
